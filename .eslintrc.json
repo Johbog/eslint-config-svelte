@@ -41,6 +41,14 @@
         "typeof": true
       }
     ],
+    "no-use-before-define": [
+			"error",
+			{
+				"variables": true,
+				"functions": true,
+				"classes": true
+			}
+		],
     "require-atomic-updates": "off",
     "indent": [
       "error",
